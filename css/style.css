@@ -1,18 +1,51 @@
+/*        Grid de produtos            */
+
 #grid {
+  width: 100%;
+  height: 85%;
   margin-top: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(https://images.unsplash.com/photo-1499088513455-78ed88b7a5b4?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODE0OTQ3MzM&ixlib=rb-4.0.3&q=85);
-  background-size: cover;
+  gap: 40px;
+  background-color: aliceblue;
+}
+
+.grid-text {
+  width: 600px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.product-btn {
+  width: 45%;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: transparent;
+  color: #000;
+  text-decoration: none;
+  border: 2px solid #000;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.product-btn:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 .thumbs {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 500px;
   max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(250px, 1fr));
+  gap: 20px;
 }
 .thumbs > a {
   max-width: 150px;
@@ -30,6 +63,7 @@
   min-height: 100%;
   max-width: 100%;
   max-height: 100%;
+  width: 200px;
 }
 .thumbs > a:hover img {
   transform: scale(1.1);
@@ -48,6 +82,8 @@
   transform: translateY(-100%);
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
+  z-index: 9999;
+  padding-left: 10%;
 }
 .lightbox:has(div:target) {
   transform: translateY(0%);
@@ -67,7 +103,7 @@
 .lightbox .target {
   position: absolute;
   height: 100%;
-  width: 100%;
+  width: 80%;
   display: flex;
   transform: scale(0);
   align-items: center;
