@@ -3,54 +3,54 @@
 #grid {
   width: 100%;
   height: 85%;
-  margin-top: 25px;
+  margin-top: 1.563rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 40px;
+  gap: 2.5rem;
   background-color: aliceblue;
 }
 
+.grid-btn {
+  width: 45%;
+  display: inline-block;
+  margin-top: 0.625rem;
+  padding: 0.625rem 1.25rem;
+  background: transparent;
+  color: #000;
+  text-decoration: none;
+  border: 1px solid #000;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.grid-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
 .grid-text {
-  width: 600px;
-  padding: 30px;
+  width: 37.5rem;
+  padding: 1.875rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  gap: 30px;
+  gap: 1.875rem;
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   background-color: #fff;
 }
 
-.product-btn {
-  width: 45%;
-  display: inline-block;
-  margin-top: 10px;
-  padding: 10px 20px;
-  background: transparent;
-  color: #000;
-  text-decoration: none;
-  border: 2px solid #000;
-  font-weight: 400;
-  cursor: pointer;
-}
-
-.product-btn:hover {
-  background-color: #000;
-  color: #fff;
-}
-
 .thumbs {
   max-width: 100%;
   display: grid;
-  grid-template-columns: repeat(4, minmax(250px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(4, minmax(200px, 1fr));
+  /* gap: 1.25rem; */
 }
 .thumbs > a {
-  max-width: 150px;
-  height: 150px;
-  margin: 10px;
+  max-width: 9.375rem;
+  height: 9.375rem;
+  margin: 0.625rem;
   overflow: hidden;
   border-radius: 5px;
   box-shadow: 0 0 0 3px white, 0 5px 8px 3px rgba(0, 0, 0, 0.6);
@@ -92,7 +92,7 @@
 .lightbox a.nav {
   text-decoration: none;
   color: white;
-  font-size: 40px;
+  font-size: 2.5rem;
   text-shadow: 0 2px 2px rgba(0, 0, 0, 0.8);
   opacity: 0.5;
   font-weight: 200;
@@ -110,12 +110,12 @@
   justify-content: space-between;
 }
 .lightbox .target *:first-child, .lightbox .target *:last-child {
-  flex: 0 0 100px;
+  flex: 0 0 6.25rem;
   text-align: center;
 }
 @media all and (max-width: 600px) {
   .lightbox .target *:first-child, .lightbox .target *:last-child {
-    flex: 0 0 50px;
+    flex: 0 0 3.125rem;
   }
 }
 .lightbox .target .content {
@@ -148,8 +148,49 @@
 }
 .lightbox .close {
   position: absolute;
-  right: 10px;
-  top: 10px;
+  right: 0.625rem;
+  top: 0.625rem;
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+/* 📱 Para celulares médios */
+@media (max-width: 480px) {
+
+    /* ///////// Grid de Produtos ///////// */
+
+    .thumbs {
+      grid-template-columns: repeat(2, minmax(10.625rem, 1fr));
+      /* gap: 1.25rem; */
+   }
+
+   #grid {
+    height: 205%;
+      display: flex;
+      flex-direction: column;
+   }
+
+   .grid-text {
+    width: 20rem;
+      gap: 0.625rem;
+   }
+
+   .grid-text p {
+    font-size: 0.9375rem;
+ }
+
+ .grid-btn {
+   width: 50%;
+ }
+}
+
+/* 📱 Para celulares médios */
+@media (max-width: 375px) {
+  
+  #grid {
+    height: 270%;
+      display: flex;
+      flex-direction: column;
+   }
+}
