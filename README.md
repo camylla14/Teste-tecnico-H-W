@@ -1,6 +1,6 @@
 # Teste-tecnico-H-W
 
-![home](../img/home.jpeg)
+![home](./img/home.jpeg)
 
 ### 🧴Projeto que tem como objetivo ser um site vendas online de produtos focados em cosméticos de beleza
 
