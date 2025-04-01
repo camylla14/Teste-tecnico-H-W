@@ -84,11 +84,11 @@ $ npm install
 # Apos instalar as dependêcias iniciar o projeto localmente usando o HMTL
 ```
 
-## ✅ Tecnologias Utilizadas
-- [X] HTML
-- [X] CSS
-- [x] SCSS
-- [X] JavaScript
-- [x] Bootrasp
-- [x] Biblioteca Swiper js (carrosel)
+## ⚙️ Tecnologias Utilizadas
+- ☑️ HTML
+- ☑️ CSS
+- ☑️ SCSS
+- ☑️ JavaScript
+- ☑️ Bootrasp
+- ☑️ Biblioteca Swiper js (carrosel)
 
