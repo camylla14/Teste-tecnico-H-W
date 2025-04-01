@@ -84,7 +84,7 @@ $ npm install
 # Apos instalar as dependêcias iniciar o projeto localmente usando o HMTL
 ```
 
-## ⚙️ Tecnologias Utilizadas
+## ✅ Tecnologias Utilizadas
 - ☑️ HTML
 - ☑️ CSS
 - ☑️ SCSS
