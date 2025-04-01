@@ -26,45 +26,45 @@
 
 <hr />
 
-![home](../img/home.jpeg)
+![home](./img/home.jpeg)
 
 
 ### - Sobre nós
 
 <hr />
 
-![sobrenos](../img/sobrenos.jpeg)
+![sobrenos](./img/sobrenos.jpeg)
 
 ### - Depoimentos
 
 <hr />
 
-![parcerias](../img/parceria.jpeg)
+![parcerias](./img/parceria.jpeg)
 
 
 ### - Ofertas
 
 <hr />
 
-![Ofertas](../img/ofertas.jpeg)
+![Ofertas](./img/ofertas.jpeg)
 
 ### - Produtos
 
 <hr />
 
-![protudos](../img/produtos.jpeg)
+![protudos](./img/produtos.jpeg)
 
 ### - Footer
 
 <hr />
 
-![footer](../img/footer.jpeg)
+![footer](./img/footer.jpeg)
 
 ### - Tela de Cadastro
 
 <hr />
 
-![cadastro](../img/cadastro.jpeg)
+![cadastro](./img/cadastro.jpeg)
 
 ## 📲 [Link demonstração](#)
 
